@@ -2,13 +2,14 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import CartList from '../components/CartList';
 import OrderSummary from '../components/OrderSummary';
+import { cartReducer } from '../redux/reducers/cart-reducer';
 
 
 
 const Cart = () => {
 
-    const totalItems = useSelector((state) => state.numberCart);
-    const products = useSelector((state) => state.carts);
+    const totalItems = useSelector((state) => state.cartReducer.numberCart);
+    const products = useSelector((state) => state.cartReducer.carts);
 
     return (
         <>

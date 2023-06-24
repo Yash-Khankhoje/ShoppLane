@@ -7,8 +7,8 @@ const OrderSummary = () => {
 
     })
 
-    const totalItems = useSelector((state) => state.numberCart);
-    const products = useSelector((state) => state.carts);
+    const totalItems = useSelector((state) => state.cartReducer.numberCart);
+    const products = useSelector((state) => state.cartReducer.carts);
 
     const getSummary = () => {
         let subTotal = 0;

@@ -12,6 +12,7 @@ import LoginPage from './pages/LoginPage';
 import { Navbar } from './components/Navbar';
 import { CategoryList } from './components/CategoryList';
 import Cart from './pages/Cart';
+import Favourite from './pages/Favourite';
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/register" element={<RegiterPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/favourite" elemen= {<Favourite />} />
         </Routes>
       </Router>
     </>
