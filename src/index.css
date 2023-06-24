@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.brand-style{
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.header-style {
+    height: 2%;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* align-content:center; */
+    text-align: justify;
+}
+
+.card-style {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: small;
+}
+
+.card-rating-style {
+    margin-top: -5%;
+}
+
+.card-price-style {
+    margin-top: -8%;
+}
+
+.first-half {
+    color:aqua;
+}
+
+.access-placement {
+    margin-left: 70%;
+    border: 2px snow solid;
+    background-color:aliceblue;
+}
+
+.wrapper {
+    background-color: gainsboro;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+
+.registration-wrapper {
+    background-color:snow;
+    padding: 30px;
+    margin-top: 100px;
+    border: 1px solid;
+}
+
+.nav-cart-style{
+    margin-left: 2%;
+}
+
+.cart-wrapper {
+    background-color: white;
+    padding: 30px;
+    margin-top: 100px;
+    border: 1px solid gray;
+    box-shadow: 4px;
+    border-radius: 4px;
+}
+
+.order-summary-style {
+    margin-top: 40%;
+    border: 1px solid gainsboro;
+}
+
+.order-summary-header-style{
+    margin: 4%;
+    margin-left: 6%;
+}
