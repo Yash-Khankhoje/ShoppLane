@@ -9,14 +9,13 @@ const Favourite = () => {
 
   return (
     <>
-        Hello
-        {/* <div className="container">
-            jdjd
+        
+        <div className="container">
             <div className="row">{
                 products.map((product)=><Product data={product} />)
             }
             </div>
-        </div> */}
+        </div>
     </>
   )
 }

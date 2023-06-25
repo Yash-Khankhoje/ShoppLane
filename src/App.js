@@ -35,7 +35,8 @@ const App = () => {
           <Route path="/register" element={<RegiterPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/favourite" elemen= {<Favourite />} />
+          <Route path="/favourite" element= {<Favourite />} />
+          <Route path="/favourite/products/:id" element= {<ProductDetailsPage />} />
         </Routes>
       </Router>
     </>
